@@ -14,8 +14,10 @@ class linkedList
 {
  public:
   linkedList();
-  
+  void insertAtEnd(int x);
 
+  void print();
+  
  private:
   node *head;
   node *tail;
